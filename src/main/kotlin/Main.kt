@@ -14,15 +14,15 @@ fun main() {
     // Hier gibt der User seine Grpße ein
     var size = readln()
 
-    // Hier wandle ich das eingegebene Gewicht in ein Integer Zahl um, da die Readln immer einen String speichert
+    // Hier wandel ich das eingegebene Gewicht in ein Integer Zahl um, da die Readln immer einen String speichert
     var converedWeight = weight.toInt()
-    // Hier wandle ich die eigegebene Größe in eine Double Zahl um, da die Readln immer einen String speichert
+    // Hier wandel ich die eigegebene Größe in eine Double Zahl um, da die Readln immer einen String speichert
     var size2= size.toDouble()
-    // Hier mache ich die erste zwischen Rechnung da ich Größe*Größe als Ergebnis benötige für die Berechnung des BMI
+    // Hier mache ich die erste Zwischenrechnung, da ich Größe*Größe als Ergebnis benötige für die Berechnung des BMI
     var height= size2*size2
     // Hier wird der BMI errechnet
     var bmi = converedWeight / height
-    // Hier wandel ich den errechneten BMI in eine Integer Zahl um, da der BMI immer als Ganze Zahl angegeben wird
+    // Hier wandel ich den errechneten BMI in eine Integer Zahl um, da der BMI immer als ganze Zahl angegeben wird
     var converedBmi = bmi.toInt()
 
     println("Dein BMI ist somit: $converedBmi")
